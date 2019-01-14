@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/* LAS SIGUIENTES LINEAS ELIMINAN EL PADDING QUE VIENE A LA IZQUIERDA*/
+.row-no-padding {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+[class*="col-"],  /* Elements whose class attribute begins with "col-" */
+[class^="col-"] {
+  /* Elements whose class attribute contains the substring "col-" */
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/*HEADER*/
+.header {
+  background-color: #282c34;
+  padding: 3% 0;
+}
+
+.hdt h1 {
+  color: whitesmoke;
+}
+
+/*CENTRO*/
+
+.juegoc {
+  background-color: gray;
+}
+
+.c1 {
+  background-color: gray;
+}
+
+.c2 {
+  background-color: gray;
+  margin-top: 3em;
+}
+
+#ganar {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.versusrow {
+  background-color: blue;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  height: 50%;
+  width: 100%;
+}
+
+.over {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.c3 {
+  background-color: gray;
+}
+
+.barra {
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+#winner {
+  display: none;
+  position: relative;
+  background-color: aliceblue;
+  cursor: pointer;
+}
+#winner a span {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#winner:hover {
+  background-color: aqua;
+}
+
+#play:hover {
+  background-color: aqua;
+}
+
+/*BOTONES*/
+
+.botones {
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+#bot1,
+#bot2,
+#bot3 {
+  position: relative;
+  background-color: aliceblue;
+  cursor: pointer;
+}
+
+#bot1 a span,
+#bot2 a span,
+#bot3 a span {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#bot1:hover,
+#bot2:hover,
+#bot3:hover {
+  background-color: aqua;
+}
+
+/*FOOTER*/
+.ff {
+  background-color: #282c34;
+}
+
+.footer {
+  background-color: #282c34;
+  padding: 3% 0;
+  position: relative;
+}
+
+.fdt p {
+  color: whitesmoke;
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <div class="container-fluid">
+        <div class="header row">
+          <div class="col-12 hdt" align="center"><h1>Gamesite</h1></div>
+          <div class="col-12"><h2 id="gameMoment"></h2></div>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="container-fluid">
+        <div class="row juegoc">
+          <div class="col-1 col-sm-2 col-md-2 col-lg-3 col-xl-3 c1"></div>
+          <div class="col-10 col-sm-8 col-md-8 col-lg-6 col-xl-6 c2">
+            <div class="row versusrow">
+              <div class="col-6 over" align="center">
+                <img
+                  src="./img/rps/vacio.png"
+                  alt=""
+                  class="absolute img-fluid"
+                  alt="Responsive image "
+                  id="imagenA"
+                />
+              </div>
+
+              <div class="col-6 over">
+                <img
+                  src="./img/rps/vacio.png"
+                  alt=""
+                  class="absolute img-fluid"
+                  alt="Responsive image "
+                  id="imagenB"
+                />
+              </div>
+            </div>
+            <div class="row barra">
+              <div class="col-12" align="center" id="choicehidden">
+                <h4>PICK A CHOICE</h4>
+              </div>
+            </div>
+            <div class="row" id="ganar"></div>
+            <div class="row botones" id="bt">
+              <div class="col-4" id="bot1" align="center" onclick="clickRock()">
+                <h4>ROCK</h4>
+                <a href="#"><span></span></a>
+              </div>
+              <div
+                class="col-4"
+                id="bot2"
+                align="center"
+                onclick="clickPaper()"
+              >
+                <h4>PAPER</h4>
+                <a href="#"><span></span></a>
+              </div>
+              <div
+                class="col-4"
+                id="bot3"
+                align="center"
+                onclick="clickScissors()"
+              >
+                <h4>SCISSORS</h4>
+                <a href="#"><span></span></a>
+              </div>
+            </div>
+            <div class="row barra">
+              <div
+                class="col-12"
+                align="center"
+                id="winner"
+                onclick="playmeAgain()"
+              >
+                <h4>PLAY AGAIN</h4>
+                <a href="#"><span></span></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-1 col-sm-2 col-md-2 col-lg-3 col-xl-3 c3"></div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container-fluid ff">
+        <div class="footer row">
+          <div class="col-12 fdt" align="center">
+            <p>this is the footer in a paragraph</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="jstest.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
